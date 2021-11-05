@@ -35,6 +35,24 @@
     margin: auto;
     align-items: center;
 }
+.resume{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin: 40px;
+    align-items: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    text-decoration: none;
+}
+.resume .button{
+    margin:auto;
+    font-weight: bold;
+}
 .header .intro-name{
     font-family: var(--font-family);
     font-size: 40px;
@@ -100,7 +118,7 @@ hr{
     padding: 5px 5px;
 }
 
-.button{
+/* .button{
     background-color: var(--primary-color);
     border: none;
     color: white;
@@ -109,7 +127,7 @@ hr{
     text-align: center;
     display:inline-flexbox;
     font-size: 16px;
-}
+} */
 .list-non-bullet{
      list-style: none;
  }
