@@ -61,14 +61,18 @@
     font-weight: normal;
 }
 
-.technologies{
+/* .technologies{
     padding:10px ;
-}
+} */
 .projects{
     padding: 10px;
 }
-.projects .heading{
+/* .projects .heading{
     padding-bottom: 10px;
+} */
+.home-body h2{
+    font-size: 30px;
+    padding-top: 25px;
 }
 .project-h1{
     text-align: center;
@@ -248,9 +252,9 @@ hr{
     text-align: right;
     text-orientation: inherit;
 }
- .navigation .link-active{
+ /* .navigation .link-active{
      font-weight: bold;
- }
+ } */
 
  .hero{
      padding: 3px;
