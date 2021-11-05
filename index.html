@@ -4,115 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kriti-portfolio</title>
-
+    <title>Home | Kriti Sharma</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="name"> Kriti Sharma</h1>
-    <h1 id="lib-header" >Hi! i am kriti. I am a 3rd year undergraduate student.</h1>
-
-    <hr> 
-    <h2>@typography</h2>
-    <p>This is simple text</p>
-    <p>THIS WILL BE THE BIGEST PARAGRAPH OF THIS DOCUMENT</p>
-    <p>This is the <strong>bold </strong>text</p>
     
-    <hr>
-    <h2>@Container</h2>
-    <h3>fluid container</h3>
-    <div class="container-fluid">This is a fluid container and it will go till the end of this page</div>
 
-    <h3>center container</h3>
-    <div class="container container-center">This is a center container</div>
-
-    <!-- <p class="container-fluid">This is a container</p> -->
-
-    <hr>
-    <h2>@Links</h2>
-    <a class="primary-link" href="https://www.linkedin.com/in/kriti-sharma-78a030195/" target="_blank">LinkedIn</a>
-
-    <a class="secondary-link" href="https://www.linkedin.com/in/kriti-sharma-78a030195/" target="_blank">LinkedIn</a>
-
-    <a class="button" href="resume.pdf" target="_blank">See my Resume</a>
-
-    <button value="button" onclick="resume.pdf">Resume</button>
-    
-   
-    <hr>
-    <h2>@Lists</h2>
-    <h3>unordered list</h3>
-    <ul class="list-no-bullet">
-        <li>item one</li>
-        <li>itme tow</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-no-bullet">
-        <li class="list-item-inline">inline itme one</li>
-        <li class="list-item-inline">inline item two</li>
-    </ul>
-     <h3>reverse ordered list</h3>
-     <ol reversed class="list-item-inline">
-         <li class="abc">milk</li>
-         <li class="abc">bread</li>
-         <li class="abc">eggs</li>
-     </ol>
-    
-    <hr>
-    <h2>@navs</h2> 
     <nav class="navigation container">
-        <div class="nav-brand">iAMbrand</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active"  href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">About</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">Contact Us</a>
-            </li>
-        </ul>
+        <div class="nav-brand">Kriti Sharma</div>
+        <span class="navigation xyz">
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link link-active"  href="/">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">Project</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">Blogs</a>
+                </li>
+            </ul>
+        </span>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
     <header class="hero">
-        <img class="hero-img" src="images/hero-image.svg" alt="">
-        <h1 class="hero-heading">Kriti Sharma the <span style="color: var(--primary-color);">Web Developer</span></h1>
+        <img class="hero-img" src="images/hero.svg" alt="">
+        <h1 class="hero-heading">Hi all I am <span style="color: var(--primary-color);">Kriti Sharma</span></h1>
+        <p class="hero-intro">Seeker of knowledge and sarcasm. This is my little portfolio where you can find me and my work.</p>
+        <div class="social-media">
+            <a class="icon-button" href="https://github.com/kritisharma1303" target="_blank">
+                <img class="icon-img" src="images/github.png" alt="" ></a>
+            <a class="icon-button" href="https://www.linkedin.com/in/kriti-sharma-78a030195/" target="_blank">
+                <img class="icon-img" src="images/linkedin.png" alt="" ></a>
+            <a class="icon-button" href="https://www.instagram.com/kriti.sharma8/" target="_blank">
+                <img class="icon-img" src="images/insta.png" alt="" ></a>
+            <a class="icon-button" href="mailto:kritisharma1303@gmail.com" target="_blank">
+                <img class="icon-img" src="images/gmail.png" alt="" ></a>
+            <a class="icon-button" href="https://twitter.com/kritisharma1303" target="_blank">
+                <img class="icon-img" src="images/twittwe.png" alt="" ></a>    
+                
+        </div>
+
     </header>
-    <hr>
-
-    <h2>@sections</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h3>white section</h3>
-            <p>Welcome to our Hacks: Decoded Interview series! We spoke with Thomas Park over email about coding, his favourite apps and his past life at Mozilla. Thomas is the founder of Codepip, a platform he created for coding games that helps people learn HTML, CSS, JavaScript, etc. The most popular game is Flexbox Froggy.The post Hacks Decoded: Thomas Park, Founder of Codepip appeared first on Mozilla Hacks - the Web developer blog.</p>
-        </div>
-        
-    </section>
-
-    <section class="section ow">
-        <div class="container container-center">
-            <h3>off white section</h3>
-            <p>Welcome to our Hacks: Decoded Interview series! We spoke with Thomas Park over email about coding, his favourite apps and his past life at Mozilla. Thomas is the founder of Codepip, a platform he created for coding games that helps people learn HTML, CSS, JavaScript, etc. The most popular game is Flexbox Froggy.The post Hacks Decoded: Thomas Park, Founder of Codepip appeared first on Mozilla Hacks - the Web developer blog.</p>
-        </div>
-        
-    </section>
-    
-    <hr>
-    <h2>@footer</h2>
-    <footer class="footer ">
-        <div>some small heading inside footer</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/kriti-sharma-78a030195/">LinkedIn</a> </li>
-            <li class="list-item-inline"><a class="link" href="https://github.com/kritisharma1303">Github</a> </li>
-            <li class="list-item-inline"><a class="link" href="https://twitter.com/kritisharma1303">Twitter</a> </li>
-            <li class="list-item-inline"><a class="link" href="https://www.instagram.com/kriti.sharma8/">Instagram</a></li>
-        </ul>
-    </footer>
-
 </body>
 </html>
