@@ -31,7 +31,7 @@
 .icon-img{
     max-height: 40px;
     padding-top: 8px;
-    padding-right: 10px;    
+    padding-right: 15px;    
     margin: auto;
     align-items: center;
 }
@@ -73,7 +73,7 @@
 .home-body h2{
     font-size: 30px;
     padding-top: 25px;
-    text-align: left;
+    text-align: center;
 }
 .project-h1{
     text-align: center;
@@ -98,8 +98,10 @@
     font-size:40px ;
 }
 .project-title{
-    text-align: center;
+    text-align: left;
     padding-bottom: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .project-buttons-live{
     background-color: var(--primary-color);
@@ -131,16 +133,101 @@
     text-decoration: none;
     margin: auto;
 }
-
+.project-title h4{
+    text-align: left;
+}
 .project-title p{
     text-align: left;
-    display: block;
+    /* display: block; */
     margin-left: 300px;
     margin-right: 300px;
     padding-top: 5px;
     padding-bottom: 10px;
     font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
+.experiences{
+    padding-bottom: 50px;
+}
+.experiences p{
+    padding-bottom: 10px;
+    font-weight: normal;
+    color: black;
+    
+}
+.exp{
+    padding: 3px;
+}
+.exp .exp-img{
+    padding: 20px;
+    max-width: 600px;
+    max-height: 450px;
+     display: block;
+     margin: auto;
+}
+.exp h1{
+    /* color: var(--primary-color); */
+    text-align: center;
+}
+.exp h2{
+    text-align: center;
+    font-weight: bold;
+}
+.exp p{
+    color:var(--dark-gray);
+    font-weight: bold;
+    text-align: center;
+}
+.volunteer{
+    text-align: center;
+}
+.volunteer h3{
+    color: black;
+    font-weight: bold;
+}
+.volunteer h4{
+    color: var(--dark-gray);
+}
+.volunteer .position{
+    color: var(--dark-gray);
+}
+.volunteer .gdsc{
+    margin-left: 430px;
+    margin-right: 430px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.volunteer .iwsc{
+    margin-left: 430px;
+    margin-right: 430px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* padding:1px; */
+}
+/* .volunteer .gdsc ul{
+    text-align: left;
+} */
+.volunteer  ul{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    
+}
+.volunteer .gdsc .gdsc-img{
+    max-width: 250px;
+    max-height: 150px;
+}
+.volunteer .iwsc .iwsc-img{
+    max-width: 250px;
+    max-height: 150px;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     margin: 0px;
@@ -170,7 +257,6 @@ hr{
     
 }
 
-
 .link{
    text-decoration: none;
    padding: 0.5rem 1rem;
@@ -193,16 +279,7 @@ hr{
     padding: 5px 5px;
 }
 
-/* .button{
-    background-color: var(--primary-color);
-    border: none;
-    color: white;
-    padding: 10px;
-    border-radius: 6px;
-    text-align: center;
-    display:inline-flexbox;
-    font-size: 16px;
-} */
+
 .list-non-bullet{
      list-style: none;
  }
@@ -286,11 +363,11 @@ padding: 2rem;
 
  .footer{
      background-color: var(--primary-color);
-     padding:2rem 1rem ;
+     padding:15px ;
      text-align: center;
      color: white;
-     border-top-left-radius: 1rem;
-     border-bottom-right-radius: 1rem;
+     border-top-left-radius: 0.5rem;
+     border-bottom-right-radius: 0.5rem;
  }
 
  .footer .link{
