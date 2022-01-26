@@ -497,3 +497,11 @@ nav {
     padding-inline-start: 0px;
     display: flex;
 }
+
+.tech-img {
+    max-height: 55px;
+    padding-top: 8px;
+    padding-right: 20px;
+    margin: auto;
+    align-items: center;
+}
